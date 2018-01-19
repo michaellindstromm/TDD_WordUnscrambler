@@ -7,7 +7,7 @@ using Unscrambler.CLI.Data;
 
 namespace Unscrambler.CLI.Workers
 {
-    class WordMatcher
+    public class WordMatcher
     {
         public List<MatchedWord> Match(string[] scrambledWords, string[] wordList)
         {

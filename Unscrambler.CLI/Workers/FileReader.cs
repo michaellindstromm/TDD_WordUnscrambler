@@ -12,9 +12,7 @@ namespace Unscrambler.CLI.Workers
 
             try
             {
-
                 fileContent = File.ReadAllLines(filename);
-                
             }
             catch (System.Exception ex)
             {

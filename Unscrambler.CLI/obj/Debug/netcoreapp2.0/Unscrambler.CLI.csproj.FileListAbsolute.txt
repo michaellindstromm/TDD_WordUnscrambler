@@ -1,0 +1,10 @@
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.CLI/bin/Debug/netcoreapp2.0/Unscrambler.CLI.deps.json
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.CLI/bin/Debug/netcoreapp2.0/Unscrambler.CLI.runtimeconfig.json
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.CLI/bin/Debug/netcoreapp2.0/Unscrambler.CLI.runtimeconfig.dev.json
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.CLI/bin/Debug/netcoreapp2.0/Unscrambler.CLI.dll
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.CLI/bin/Debug/netcoreapp2.0/Unscrambler.CLI.pdb
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.CLI/obj/Debug/netcoreapp2.0/Unscrambler.CLI.csproj.CoreCompileInputs.cache
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.CLI/obj/Debug/netcoreapp2.0/Unscrambler.CLI.AssemblyInfoInputs.cache
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.CLI/obj/Debug/netcoreapp2.0/Unscrambler.CLI.AssemblyInfo.cs
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.CLI/obj/Debug/netcoreapp2.0/Unscrambler.CLI.dll
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.CLI/obj/Debug/netcoreapp2.0/Unscrambler.CLI.pdb

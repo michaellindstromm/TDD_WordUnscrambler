@@ -1,0 +1,15 @@
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.Test/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.Test/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netcoreapp10.dll
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.Test/bin/Debug/netcoreapp2.0/xunit.runner.utility.netcoreapp10.dll
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.Test/bin/Debug/netcoreapp2.0/Unscrambler.Test.deps.json
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.Test/bin/Debug/netcoreapp2.0/Unscrambler.Test.runtimeconfig.json
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.Test/bin/Debug/netcoreapp2.0/Unscrambler.Test.runtimeconfig.dev.json
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.Test/bin/Debug/netcoreapp2.0/Unscrambler.Test.dll
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.Test/bin/Debug/netcoreapp2.0/Unscrambler.Test.pdb
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.Test/bin/Debug/netcoreapp2.0/Unscrambler.CLI.dll
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.Test/bin/Debug/netcoreapp2.0/Unscrambler.CLI.pdb
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.Test/obj/Debug/netcoreapp2.0/Unscrambler.Test.csproj.CoreCompileInputs.cache
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.Test/obj/Debug/netcoreapp2.0/Unscrambler.Test.AssemblyInfoInputs.cache
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.Test/obj/Debug/netcoreapp2.0/Unscrambler.Test.AssemblyInfo.cs
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.Test/obj/Debug/netcoreapp2.0/Unscrambler.Test.dll
+/Users/michaellindstrom/workspace/udemy/c-sharp/Unscrambler/Unscrambler.Test/obj/Debug/netcoreapp2.0/Unscrambler.Test.pdb

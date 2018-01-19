@@ -33,29 +33,54 @@ namespace Unscrambler.CLI
                         break;
                 }
 
-                var continueWordUnscrambleDecision = string.Empty;
+                var continueDecision = string.Empty;
 
                 do
                 {
                     
                     Console.WriteLine("Do you want to continue? Y/N");
-                    continueWordUnscrambleDecision = (Console.ReadLine() ?? string.Empty);
+                    continueDecision = (Console.ReadLine() ?? string.Empty);
 
-                } while (!continueWordUnscrambleDecision.Equals("Y", StringComparison.OrdinalIgnoreCase) && !continueWordUnscrambleDecision.Equals("N", StringComparison.OrdinalIgnoreCase));
+                } while (
+                    !continueDecision.Equals("Y", StringComparison.OrdinalIgnoreCase) && 
+                    !continueDecision.Equals("N", StringComparison.OrdinalIgnoreCase));
 
-                continueUnscrambler = continueWordUnscrambleDecision.Equals("Y", StringComparison.OrdinalIgnoreCase);
+                continueUnscrambler = continueDecision.Equals("Y", StringComparison.OrdinalIgnoreCase);
 
             } while (continueUnscrambler);
         }
 
         private static void ExecuteScrambledWordsInFileScenario()
         {
-            // throw new NotImplementedException();
+            var manualInput = Console.ReadLine() ?? string.Empty;
+            string[] scrambledWords = manualInput.Split(',');
+            DisplayMatchedUnscrambledWords(scrambledWords);
         }
 
         private static void ExecuteScrambledWordsManualEntryScenario()
         {
-            // throw new NotImplementedException();
+            var fileName = Console.ReadLine() ?? string.Empty;
+            string[] scrambledWords = fileReader.Read(fileName);
+            DisplayMatchedUnscrambledWords(scrambledWords);
+        }
+
+        private static void DisplayMatchedUnscrambledWords(string[] scrambledWords)
+        {
+            string[] wordList = fileReader.Read(wordListFile);
+
+            List<MatchedWord> matchedWords = wordMatcher.Match(scrambledWords, wordList);
+
+            if (matchedWords.Any())
+            {
+                foreach (var matchedWord in matchedWords)
+                {
+                    Console.WriteLine("Match found for {0}: {1}", matchedWord.ScrambledWord, matchedWord.word);
+                }
+            }
+            else
+            {
+                Console.WriteLine("No matches have been found.");
+            }
         }
     }
 

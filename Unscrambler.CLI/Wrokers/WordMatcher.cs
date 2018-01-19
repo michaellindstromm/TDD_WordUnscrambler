@@ -1,5 +1,5 @@
 using System;
-using System.Collection.Generic;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +15,7 @@ namespace Unscrambler.CLI.Workers
 
             foreach (var scrambledWord in scrambledWords)
             {
+                Console.WriteLine(scrambledWord);
                 foreach (var word in wordList)
                 {
                     if (scrambledWord.Equals(word, StringComparison.OrdinalIgnoreCase))
@@ -37,7 +38,7 @@ namespace Unscrambler.CLI.Workers
                         {
                             matchedWords.Add(BuildMatchedWord(scrambledWord, word));
                         }
-                        
+
                     }
                 }
             }
@@ -52,7 +53,7 @@ namespace Unscrambler.CLI.Workers
             MatchedWord matchedWord = new MatchedWord
             {
                 ScrambledWord = scrambledWord,
-                Word = word;
+                Word = word
             };
 
             return matchedWord;
